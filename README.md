@@ -1,7 +1,8 @@
 # Baidu Fanyi package
 
 ## Description
-Baidu Translate Simple SDK (unofficial)
+A Simple SDK for Baidu Translate  (unofficial)
+
 一个简单的用于调用百度翻译api的包。
 
 ## Usage
