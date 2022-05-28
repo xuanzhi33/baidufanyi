@@ -1,4 +1,4 @@
-# Baidu Fanyi package
+# Baidu Fanyi
 
 ## Description
 A Simple SDK for Baidu Translate  (unofficial)
@@ -8,7 +8,7 @@ A Simple SDK for Baidu Translate  (unofficial)
 ## Usage
 
 ```python
-from baidufanyi import BaiduFanyi
+from baidufanyi import BaiduFanyi # 注意大小写
 
 APPID = "your appid"
 APPKEY = "your appkey"
