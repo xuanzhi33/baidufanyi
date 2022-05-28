@@ -1,8 +1,8 @@
 Metadata-Version: 2.1
 Name: baidufanyi
-Version: 0.1.0
-Summary: Baidu Translate Simple SDK (unofficial)
-Home-page: UNKNOWN
+Version: 0.1.2
+Summary: A simple SDK for the Baidu Translation API (unofficial)
+Home-page: https://github.com/xuanzhi33/baidufanyi
 Author: xuanzhi33
 Author-email: xuanzhi33@qq.com
 License: GPL-3.0
@@ -13,17 +13,25 @@ Classifier: Operating System :: OS Independent
 Requires: requests
 Requires-Python: >=3.6
 Description-Content-Type: text/markdown
+License-File: LICENSE
 
-# Baidu Fanyi package
+# Baidu Fanyi
 
 ## Description
-Baidu Translate Simple SDK (unofficial)
+A simple SDK for the Baidu Translation API (unofficial)
+
 一个简单的用于调用百度翻译api的包。
+
+## Install
+
+```
+pip3 install baidufanyi
+```
 
 ## Usage
 
 ```python
-from baidufanyi import BaiduFanyi
+from baidufanyi import BaiduFanyi # 注意大小写
 
 APPID = "your appid"
 APPKEY = "your appkey"
