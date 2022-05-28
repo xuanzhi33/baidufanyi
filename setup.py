@@ -8,7 +8,7 @@ setup(
     version="0.1.0",
     author="xuanzhi33",
     author_email="xuanzhi33@qq.com",
-    description="Baidu Translate Simple SDK (unofficial)",
+    description="A simple SDK for the Baidu Translation API (unofficial)",
     long_description=long_description,
     long_description_content_type="text/markdown",
     classifiers=[
