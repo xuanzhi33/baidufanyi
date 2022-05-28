@@ -8,6 +8,7 @@ setup(
     version="0.1.2",
     author="xuanzhi33",
     author_email="xuanzhi33@qq.com",
+    url="https://github.com/xuanzhi33/baidufanyi",
     description="A simple SDK for the Baidu Translation API (unofficial)",
     long_description=long_description,
     long_description_content_type="text/markdown",
