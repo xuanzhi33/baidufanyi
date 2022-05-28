@@ -5,6 +5,12 @@ A simple SDK for the Baidu Translation API (unofficial)
 
 一个简单的用于调用百度翻译api的包。
 
+## Install
+
+```
+pip3 install baidufanyi
+```
+
 ## Usage
 
 ```python
