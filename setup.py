@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="baidufanyi",
-    version="0.1.0",
+    version="0.1.2",
     author="xuanzhi33",
     author_email="xuanzhi33@qq.com",
     description="A simple SDK for the Baidu Translation API (unofficial)",
