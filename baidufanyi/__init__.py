@@ -27,6 +27,10 @@ class BaiduFanyi:
         r = requests.post(self.url, params=payload, headers=headers)
         result_json = json.loads(r.text)
         result_list = []
-        for result in result_json["trans_result"]:
-            result_list.append(result['dst'])
-        return "\n".join(result_list)
+
+        if 'error_code' in result_json:
+            return result_json['error_msg']
+        else:
+            for result in result_json["trans_result"]:
+                result_list.append(result['dst'])
+            return "\n".join(result_list)
