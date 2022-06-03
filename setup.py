@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="baidufanyi",
-    version="0.2.5",
+    version="0.3.0",
     author="xuanzhi33",
     author_email="xuanzhi33@qq.com",
     url="https://github.com/xuanzhi33/baidufanyi",
